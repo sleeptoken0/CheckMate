@@ -1,4 +1,4 @@
-# Split check calculator
+# CheckMate
 
   Μια εφαρμογή διαίρεσης για πληρωμή απόδειξης σε SwiftUI, με SwiftUITests.
 
