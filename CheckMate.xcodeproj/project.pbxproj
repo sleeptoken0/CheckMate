@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		306C0C6C2EFC7D4A00FE2ECA /* simulator_calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 306C0C6B2EFC7D4A00FE2ECA /* simulator_calculator.png */; };
+		306C0C722EFC818200FE2ECA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 306C0C712EFC817900FE2ECA /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3078C6752E2988CB0078132A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		306C0C6B2EFC7D4A00FE2ECA /* simulator_calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simulator_calculator.png; sourceTree = "<group>"; };
+		306C0C712EFC817900FE2ECA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		3078C6672E2988C90078132A /* CheckMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3078C6742E2988CB0078132A /* CheckMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3078C67E2E2988CB0078132A /* CheckMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,10 +82,12 @@
 		3078C65E2E2988C90078132A = {
 			isa = PBXGroup;
 			children = (
+				306C0C712EFC817900FE2ECA /* .gitignore */,
 				3078C6692E2988C90078132A /* CheckMate */,
 				3078C6772E2988CB0078132A /* CheckMateTests */,
 				3078C6812E2988CC0078132A /* CheckMateUITests */,
 				3078C6682E2988C90078132A /* Products */,
+				306C0C6B2EFC7D4A00FE2ECA /* simulator_calculator.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306C0C6C2EFC7D4A00FE2ECA /* simulator_calculator.png in Resources */,
+				306C0C722EFC818200FE2ECA /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
